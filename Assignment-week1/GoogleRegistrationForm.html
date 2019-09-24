@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Google Registration Forms
+        </title>
+        <link rel="stylesheet" href="design.css">
+   
+    </head>
+    <body>
+        <header>
+            <embed src="C:\Users\kkhullar3\Pictures\rubik.gif" style=" height: 30%; width: 20%; float:left;" alt="Logo"></embed> 
+            <h1>Google Registration Form</h1>
+           
+        </header>
+       
+       <form method="GET" action="next.html">
+       <div class="main-content">
+        <label for="username">Set Username:</label>
+        <input type="text" id="username" name="username" required pattern="[0-9a-zA-Z_@]+">
+        <br/><br/>
+        <label for="newpassword">Set New Password:</label>
+        <input type="password" id="newpassword"  name="newpassword" required>
+        <br/><br/>
+        <h4></h4>
+        <span><b>Do you want to save the password? </br>Yes or No: </b></span>
+        <br/>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="answer">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="answer">
+        <br/>
+        <br/>
+       
+            <div class="btn">
+            <input type="submit" value="Next" style="background-color:blue; color:azure; height:40%; width:20%; padding:10px 10px;">
+            </div>
+       </div>
+        </form>
+    
+        <footer>
+            
+            <p>&copy;Google 2019</p>
+        </footer>
+    </body>
+</html>
