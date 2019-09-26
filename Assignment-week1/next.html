@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Google Registration Forms
+        </title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <header>
+            <embed src="C:\Users\kkhullar3\Pictures\rubik.gif" style=" height: 30%; width: 20%; float:left;" alt="Logo"></embed> 
+            <h1>Google Registration Form</h1>
+        </header>
+       <form method="GET" action="next2.html">
+            <div class="main-content">
+                <label for="dob">Enter DOB:</label>
+                <input type="date" id="dob" name="dob" required >
+                <br/><br/>
+                <label for="security">Security Question</label>
+                <select id="security" name="security">
+                    <option value="Where were you born?">Where were you born?</option>
+                    <option value="What is your favourite color?">What is your favourite color?</option>
+                    <option value="Favourite Band:">Favourite Band:</option>
+                </select>
+            
+                <br/><br/>
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer" name="answer" required>
+                <br/><br/>
+
+                <label for="phone">Enter your Phone number:</label>
+                <input type="tel" id="phone" name="phone" required pattern="[0-9]{2}-[0-9]{9}">
+                <br/><br/>
+                <div class="btn">
+                    <input type="submit" value="Next">
+                </div>
+            </div>
+        </form>
+        <footer>
+                
+                <p>&copy;Google 2019</p>
+            </footer>
+        
+    </body>
+</html>

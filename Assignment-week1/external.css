@@ -1,0 +1,25 @@
+#p1{
+	color: darkgrey; 
+	font-size: medium; 
+	text-align:center;
+}
+#p2{
+	color: lightgreen; 
+	font-size: small; 
+	text-align:center;
+	border: 4px dotted blue;
+	padding:20px;
+}
+.subtitle{
+	color:red; 
+	background-color:cornsilk; 
+	font-family:'Courier New',Courier,monospace;
+	margin: 20px;
+}
+#outerdiv{
+	text-align:right;
+	font-size:130%;
+}
+#innerdiv{
+	background-color:lightblue;
+}
